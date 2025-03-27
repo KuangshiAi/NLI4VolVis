@@ -1,0 +1,12 @@
+__pycache__/
+output/
+build/
+diff_gaussian_rasterization.egg-info/
+simple_knn.egg-info/
+*.mp3
+*.wav
+*.txt
+GUI_results/
+datasets/
+.history/
+*.png

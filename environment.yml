@@ -1,0 +1,34 @@
+name: nli4volvis
+dependencies:
+  - matplotlib
+  - numpy=1.12.3
+  - python=3.9
+  - tensorboard
+  - tqdm
+  - pip
+  - pip:
+      - dearpygui
+      - dearpygui_ext
+      - imageio
+      - opencv-python
+      - pillow
+      - plyfile
+      - scipy
+      - kornia
+      - icecream
+      - einops
+      - pyquaternion
+      - openai
+      - sounddevice
+      - soundfile
+      - pygame
+      - rich
+      - jaxtyping
+      - pyexr
+      - diffusers
+      - transformers
+      - accelerate
+      - soundfile
+      - sounddevice
+      - pillow
+      - open-clip-torch
