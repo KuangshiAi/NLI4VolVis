@@ -1776,6 +1776,34 @@ class GUI:
                         self.need_update = True
 
                     def callback_reset_all(sender, app_data):
+                        # reset lighting
+                        dpg.set_value("_slider_light_angle", 180)
+
+                        dpg.set_value("_slider_light_elevation", 0)
+
+                        dpg.set_value("_slider_ambient_multi", 1.0)
+
+                        dpg.set_value("_slider_light_intensity_multi", 1.0)
+
+                        dpg.set_value("_slider_specular_multi", 1.0)
+
+                        dpg.set_value("_slider_shininess_multi", 3.0)
+
+                        dpg.set_value("_checkbox_headlight", True)
+                        self.light_angle=180
+                        self.light_elevation=0
+                        self.render_kwargs["dict_params"]["light_transform"].ambient_multi = torch.tensor(
+                        1.0, dtype=torch.float32, device="cuda")
+                        self.render_kwargs["dict_params"]["light_transform"].light_intensity_multi = torch.tensor(
+                        1.0, dtype=torch.float32, device="cuda")
+
+                        self.render_kwargs["dict_params"]["light_transform"].specular_multi = torch.tensor(
+                        1.0, dtype=torch.float32, device="cuda")
+
+                        self.render_kwargs["dict_params"]["light_transform"].shininess_multi = torch.tensor(
+                        3.0, dtype=torch.float32, device="cuda")
+                        self.useHeadlight = True
+                        self.render_kwargs["dict_params"]["light_transform"].useHeadLight = self.useHeadlight
                         # reset fov
                         dpg.set_value("_slider_fovy", self.default_fov)
                         self.cam.fovy = self.default_fov
