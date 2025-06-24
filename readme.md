@@ -27,7 +27,7 @@ This codebase includes the NLI and the training of basic 3DGS models.
 
 - We provide 4 processed datasets to explore with: carp, supernova, chameleon and mantle. 
 
-- If you want to use you own data, we also provide jupyter notebooks supporting 3 multi-view semantic segmentation methods: [LangSplat](https://github.com/VIS2025-1444/NLI4VolVis-LangSplat), [SAGD](https://github.com/VIS2025-1444/NLI4VolVis-SAGD) and [SAM 2](https://github.com/VIS2025-1444/NLI4VolVis-SAM2).
+- If you want to use you own data, we also provide jupyter notebooks supporting 3 multi-view semantic segmentation methods: [LangSplat](https://github.com/KuangshiAi/NLI4VolVis-LangSplat), [SAGD](https://github.com/KuangshiAi/NLI4VolVis-SAGD) and [SAM 2](https://github.com/KuangshiAi/NLI4VolVis-SAM2).
 
 - If you already have segmented multi-view image datasets, refer to ``./postprocess`` for examples about NLI4VolVis post processing (including best-view selection and 3D open-vocabulary scene understanding).
 
@@ -93,9 +93,9 @@ Feel free to explore NLI4VolVis now! Here we provide several example cases:
 
 ## Use your own datasets
 If you'd like to use your own data, we provide Jupyter notebooks supporting three multi-view semantic segmentation methods to help you prepare your dataset:
-- [LangSplat](https://github.com/VIS2025-1444/NLI4VolVis-LangSplat)
-- [SAGD](https://github.com/VIS2025-1444/NLI4VolVis-SAGD)
-- [SAM 2](https://github.com/VIS2025-1444/NLI4VolVis-SAM2)
+- [LangSplat](https://github.com/KuangshiAi/NLI4VolVis-LangSplat)
+- [SAGD](https://github.com/KuangshiAi/NLI4VolVis-SAGD)
+- [SAM 2](https://github.com/KuangshiAi/NLI4VolVis-SAM2)
 
 ## Acknowledgement
 We sincerely thank the open-source community for their invaluable contributions. This project is made possible thanks to the following outstanding projects:
