@@ -1,6 +1,6 @@
 # NLI4VolVis: Natural Language Interaction for Volume Visualization via LLM Multi-Agents and Editable 3D Gaussian Splatting
 
-🌐 **[Project Page](https://nli4volvis.github.io/)**
+🌐 **[Project Page](https://nli4volvis.github.io/)** | 🎥 **[Demo Video](https://youtu.be/40vC-qHO5nY)**
 
 ![Interface](assets/images/interface.jpg)
 The NLI4VolVis interface consists of four key components: (a) control panel, (b) rendering window, (c) chat widget, and (d) action log.
